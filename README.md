@@ -1,38 +1,61 @@
 # Url-Shorten-By-CF-Worker
 A URL Shortener Powered by Cloudflare Worker
-
-# API
-
-[中文API文档](API.md)
-
+  
+# API  [中文API文档](API.md)
+  
 # Getting start
-去Workers KV中创建一个命名空间
-### Go to Workers KV and create a namespace.
+去Workers KV中创建一个命名空间  
+## 1. Go to Workers KV and create a namespace.
 <img src="https://cdn.jsdelivr.net/npm/imst@0.0.4/20201205232805.png">
+  
+  <br/>
+  <br/>
+  
+## 2. Create a new worker.
 
-
-### Create a new worker.
-
-
-去Worker的Settings选选项卡中绑定KV Namespace
-### Bind an instance of a KV Namespace to access its data in this new created Worker.
+  <br/>
+  <br/>
+  
+  
+去Worker的Settings选选项卡中绑定KV Namespace  
+## 3. Bind an instance of a KV Namespace to access its data in this new created Worker.
 <img src="https://cdn.jsdelivr.net/npm/imst@0.0.4/20201205232536.png">
+
+  <br/>
+  <br/>
 
 
 其中Variable name填写`LINKS`, KV namespace填写你刚刚创建的命名空间
-### Where Variable name should set as `LINKS` and KV namespace is the namespace you just created in the first step.
+## 3.Where Variable name should set as `LINKS` and KV namespace is the namespace you just created in the first step.
 <img src="https://cdn.jsdelivr.net/npm/imst@0.0.4/20201205232704.png">
 
 
-复制本项目中的`index.js`的代码到Cloudflare Worker 
-### Copy the `index.js` code from this project to Cloudflare Worker. 
 
+  <br/>
+  <br/>
+
+复制本项目中的`index.js`的代码到Cloudflare Worker 
+## 4. Copy the `index.js` code from this project to Cloudflare Worker. 
+
+
+
+
+  <br/>
+  <br/>
 
 点击Save and Deploy
-### Click Save and Deploy
+## 5. Click Save and Deploy
+
+
+
+  <br/>
+  <br/>
 
 # Demo
-
+  
+  
+  <br/>
+  <br/>
  
 ### Note: Because someone abuse this demo website, all the generated link will automatically expired after 24 hours. For long-term use, please deploy your own.
 
