@@ -84,7 +84,7 @@ async function handleRequest(request) {
   console.log(path)
   if(!path){
 
-    const html= await fetch("https://cdn.jsdelivr.net/gh/xyTom/Url-Shorten-Worker@gh-pages/index.html")
+    const html= await fetch("https://raw.githubusercontent.com/51sec/Url-Shorten-By-CF-Worker/main/index.html")
     
     return new Response(await html.text(), {
     headers: {
