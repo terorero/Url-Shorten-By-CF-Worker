@@ -63,7 +63,7 @@ Cloudflare works has 100k/day requests limistation, which is enough for a small 
   <br/>
   <br/>
  
-### Note: Because someone abuse this demo website, all the generated link will automatically expired after 24 hours. For long-term use, please deploy your own. To test this demo site, please use code 'cool'. 
+### Note: Because someone abuse this demo website, all the generated link will automatically expired after 24 hours. For long-term use, please deploy your own. To test this demo site, please use code 'cool'. There is a space in the prompt textbox. You might want to delete it first then enter the password.
 
 注意：由于该示例服务被人滥用，用于转发诈骗网站，故所有由demo网站生成的链接24小时后会自动失效，如需长期使用请自行搭建。
 
@@ -83,4 +83,4 @@ else<br/>
     }<br/>
 </SCRIPT><br/>
 <br/>
-Note: This code seems not working with mobile devices with my testing. No matter if password is correct, it is always launching window.location website. 
+
