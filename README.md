@@ -63,3 +63,21 @@ This project is based on the work done by xyTom/Url-Shorten-Worker. I added a sm
 ### Note: Because someone abuse this demo website, all the generated link will automatically expired after 24 hours. For long-term use, please deploy your own. To test this demo site, please use code 'cool'. 
 
 注意：由于该示例服务被人滥用，用于转发诈骗网站，故所有由demo网站生成的链接24小时后会自动失效，如需长期使用请自行搭建。
+
+
+
+# Example Code
+
+<SCRIPT language="JavaScript">
+var password;
+var pass1="cool";
+password=prompt('Please enter your password to view this page!',' ');
+if (password!=pass1)
+    window.location="https://51sec.org";
+else
+   {
+    alert('Password Correct! Click OK to enter!');
+    }
+</SCRIPT>
+
+
