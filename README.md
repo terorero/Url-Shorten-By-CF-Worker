@@ -1,5 +1,7 @@
 # Url-Shorten-By-CF-Worker
-A URL Shortener Powered by Cloudflare Worker
+A URL Shortener Powered by Cloudflare Worker with password protection feature
+
+The code is based on the work done by xyTom/Url-Shorten-Worker. I added a small javascript to prompt password to verify the user since ideally you do not want this service to be completely public. Someone might abuse the free service as the original author faced. 
   
 # API  [中文API文档](API.md)
   
@@ -53,11 +55,11 @@ A URL Shortener Powered by Cloudflare Worker
 
 # Demo
   
-  https://lnks.tools/
+  https://go.51sec.org/
   
   <br/>
   <br/>
  
-### Note: Because someone abuse this demo website, all the generated link will automatically expired after 24 hours. For long-term use, please deploy your own.
+### Note: Because someone abuse this demo website, all the generated link will automatically expired after 24 hours. For long-term use, please deploy your own. To test this demo site, please use code 'cool'. 
 
 注意：由于该示例服务被人滥用，用于转发诈骗网站，故所有由demo网站生成的链接24小时后会自动失效，如需长期使用请自行搭建。
