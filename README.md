@@ -72,18 +72,18 @@ Cloudflare works has 100k/day requests limistation, which is enough for a small 
 # Example Code
 This code has been put into index.html file. You might want to change it based on your needs.
 ```
-<SCRIPT language="JavaScript"><br/>
-var password;<br/>
-var pass1="cool";<br/>
-password=prompt('Please enter your password to view this page!',' ');<br/>
-if (password!=pass1)<br/>
-    window.location="https://51sec.org";<br/>
-else<br/>
-   {<br/>
-    alert('Password Correct! Click OK to enter!');<br/>
-    }<br/>
-</SCRIPT><br/>
-<br/>
-```
+<SCRIPT language="JavaScript">
+var password;
+var pass1="cool";
+password=prompt('Please enter your password to view this page!',' ');
+if (password!=pass1)
+    window.location="https://51sec.org";
+else
+   {
+    alert('Password Correct! Click OK to enter!');
+    }
+</SCRIPT>
 
+```
+<br/>
 
