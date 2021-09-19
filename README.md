@@ -55,7 +55,7 @@ This project is based on the work done by xyTom/Url-Shorten-Worker. I added a sm
 
 # Demo
   
-  https://go.51sec.org/
+  https://go.51sec.workers.dev/
   
   <br/>
   <br/>
