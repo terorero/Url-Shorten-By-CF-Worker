@@ -83,4 +83,4 @@ else<br/>
     }<br/>
 </SCRIPT><br/>
 <br/>
-
+Note: This code seems not working with mobile devices with my testing. No matter if password is correct, it is always launching window.location website. 
