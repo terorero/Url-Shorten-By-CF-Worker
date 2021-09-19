@@ -71,7 +71,7 @@ Cloudflare works has 100k/day requests limistation, which is enough for a small 
 
 # Example Code
 This code has been put into index.html file. You might want to change it based on your needs.
-...
+```
 <SCRIPT language="JavaScript"><br/>
 var password;<br/>
 var pass1="cool";<br/>
@@ -84,5 +84,6 @@ else<br/>
     }<br/>
 </SCRIPT><br/>
 <br/>
-...
+```
+
 
