@@ -41,7 +41,7 @@ Cloudflare works has 100k/day requests limistation, which is enough for a small 
 
 复制本项目中的`index.js`的代码到Cloudflare Worker 
 ## 5. Copy the `index.js` code from this project to Cloudflare Worker. 
-
+<img src="https://photos.51sec.org/file/test1-51sec/2021/09/chrome_EN7fWx3qnx.png">
 
 
 
