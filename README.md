@@ -1,7 +1,7 @@
 # Url-Shorten-By-CF-Worker
 A URL Shortener Powered by Cloudflare Worker with password protection feature
 
-The code is based on the work done by xyTom/Url-Shorten-Worker. I added a small javascript to prompt password to verify the user since ideally you do not want this service to be completely public. Someone might abuse the free service as the original author faced. 
+This project is based on the work done by xyTom/Url-Shorten-Worker. I added a small javascript to prompt password to verify the user since ideally you do not want this service to be completely public. Someone might abuse the free service as the original author faced. 
   
 # API  [中文API文档](API.md)
   
