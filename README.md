@@ -26,7 +26,7 @@ A URL Shortener Powered by Cloudflare Worker
 
 
 其中Variable name填写`LINKS`, KV namespace填写你刚刚创建的命名空间
-## 3.Where Variable name should set as `LINKS` and KV namespace is the namespace you just created in the first step.
+## 4.Where Variable name should set as `LINKS` and KV namespace is the namespace you just created in the first step.
 <img src="https://cdn.jsdelivr.net/npm/imst@0.0.4/20201205232704.png">
 
 
@@ -35,7 +35,7 @@ A URL Shortener Powered by Cloudflare Worker
   <br/>
 
 复制本项目中的`index.js`的代码到Cloudflare Worker 
-## 4. Copy the `index.js` code from this project to Cloudflare Worker. 
+## 5. Copy the `index.js` code from this project to Cloudflare Worker. 
 
 
 
@@ -44,7 +44,7 @@ A URL Shortener Powered by Cloudflare Worker
   <br/>
 
 点击Save and Deploy
-## 5. Click Save and Deploy
+## 6. Click Save and Deploy
 
 
 
@@ -53,6 +53,7 @@ A URL Shortener Powered by Cloudflare Worker
 
 # Demo
   
+  https://lnks.tools/
   
   <br/>
   <br/>
