@@ -2,6 +2,9 @@
 A URL Shortener Powered by Cloudflare Worker with password protection feature
 
 This project is based on the work done by xyTom/Url-Shorten-Worker. I added a small javascript to prompt password to verify the user since ideally you do not want this service to be completely public because the url shorten site got abused usage as the original author faced. Again, this is a simple javascript and no security consideration. Once tested with a better code, it will be replaced right away. 
+<br/>
+<br/>
+Cloudflare works has 100k/day requests limistation, which is enough for a small project to use. 
   
 # API  [中文API文档](API.md)
   
@@ -68,16 +71,16 @@ This project is based on the work done by xyTom/Url-Shorten-Worker. I added a sm
 
 # Example Code
 
-<SCRIPT language="JavaScript">
-var password;
-var pass1="cool";
-password=prompt('Please enter your password to view this page!',' ');
-if (password!=pass1)
-    window.location="https://51sec.org";
-else
-   {
-    alert('Password Correct! Click OK to enter!');
-    }
-</SCRIPT>
-
+<SCRIPT language="JavaScript"><br/>
+var password;<br/>
+var pass1="cool";<br/>
+password=prompt('Please enter your password to view this page!',' ');<br/>
+if (password!=pass1)<br/>
+    window.location="https://51sec.org";<br/>
+else<br/>
+   {<br/>
+    alert('Password Correct! Click OK to enter!');<br/>
+    }<br/>
+</SCRIPT><br/>
+<br/>
 
