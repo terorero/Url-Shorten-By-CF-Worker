@@ -58,7 +58,7 @@ Cloudflare works has 100k/day requests limistation, which is enough for a small 
 
 # Demo
   
-  https://go.51sec.workers.dev/
+  https://go.51sec.org/
   
   <br/>
   <br/>
