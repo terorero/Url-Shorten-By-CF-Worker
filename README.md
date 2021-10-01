@@ -24,7 +24,7 @@ Cloudflare works has 100k/day requests limistation, which is enough for a small 
   
 去Worker的Settings选选项卡中绑定KV Namespace  
 ## 3. Bind an instance of a KV Namespace to access its data in this new created Worker.
-<img src="https://cdn.jsdelivr.net/npm/imst@0.0.4/20201205232536.png" width=640>
+<img src="https://cdn.jsdelivr.net/npm/imst@0.0.4/20201205232536.png" width = 640>
 
   <br/>
   <br/>
@@ -32,7 +32,7 @@ Cloudflare works has 100k/day requests limistation, which is enough for a small 
 
 其中Variable name填写`LINKS`, KV namespace填写你刚刚创建的命名空间
 ## 4.Where Variable name should set as `LINKS` and KV namespace is the namespace you just created in the first step.
-<img src="https://cdn.jsdelivr.net/npm/imst@0.0.4/20201205232704.png">
+<img src="https://cdn.jsdelivr.net/npm/imst@0.0.4/20201205232704.png" width = 640>
 
 
 
@@ -41,7 +41,7 @@ Cloudflare works has 100k/day requests limistation, which is enough for a small 
 
 复制本项目中的`index.js`的代码到Cloudflare Worker 
 ## 5. Copy the `index.js` code from this project to Cloudflare Worker. 
-<img src="https://photos.51sec.org/file/test1-51sec/2021/09/chrome_EN7fWx3qnx.png">
+<img src="https://photos.51sec.org/file/test1-51sec/2021/09/chrome_EN7fWx3qnx.png" width = 640>
 
 
 
@@ -58,7 +58,7 @@ Cloudflare works has 100k/day requests limistation, which is enough for a small 
 
 # Demo
   
-  https://go.51sec.org/
+  - https://go.51sec.org/
   
   <br/>
   <br/>
@@ -71,6 +71,7 @@ Cloudflare works has 100k/day requests limistation, which is enough for a small 
 
 # Example Code for Authentication
 This code has been put into index.html file. You might want to change it based on your needs.
+
 ```
 <SCRIPT language="JavaScript">
 var password;
