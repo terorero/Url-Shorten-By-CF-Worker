@@ -11,7 +11,7 @@ Cloudflare works has 100k/day requests limistation, which is enough for a small 
 # Getting start
 去Workers KV中创建一个命名空间  
 ## 1. Go to Workers KV and create a namespace.
-<img src="https://cdn.jsdelivr.net/npm/imst@0.0.4/20201205232805.png">
+<img src="https://cdn.jsdelivr.net/npm/imst@0.0.4/20201205232805.png" width = 640>
   
   <br/>
   <br/>
