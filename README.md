@@ -24,7 +24,7 @@ Cloudflare works has 100k/day requests limistation, which is enough for a small 
   
 去Worker的Settings选选项卡中绑定KV Namespace  
 ## 3. Bind an instance of a KV Namespace to access its data in this new created Worker.
-<img src="https://cdn.jsdelivr.net/npm/imst@0.0.4/20201205232536.png">
+<img src="https://cdn.jsdelivr.net/npm/imst@0.0.4/20201205232536.png" width=640>
 
   <br/>
   <br/>
