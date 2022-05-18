@@ -8,7 +8,7 @@ Cloudflare works has 100k/day requests limistation, which is enough for a small 
   
 # API  [中文API文档](API.md)
   
-# Getting start
+# Primeros pasos
 去Workers KV中创建一个命名空间  
 ## 1. Go to Workers KV and create a namespace.
 <img src="https://cdn.jsdelivr.net/npm/imst@0.0.4/20201205232805.png" width = 640>
